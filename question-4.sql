@@ -1,9 +1,5 @@
 -- Which sales agent made the most in sales in 2010?
 
--- do you want us to concatanate first and last name?
--- is the GROUP BY line correct here?
-
--- group by employeeId first
 SELECT employees.FirstName, employees.LastName, SUM(invoices.Total)
 FROM employees
 JOIN customers ON employees.EmployeeId = customers.SupportRepId

@@ -1,8 +1,4 @@
 -- What was the most purchased track of 2013?
--- come back to this one
--- use sum
-
-
 
 SELECT tracks.Name, sum(invoice_items.Quantity) 
 FROM invoice_items 

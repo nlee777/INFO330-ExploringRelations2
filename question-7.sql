@@ -1,7 +1,6 @@
 -- Find tracks (id, name, and composer) that have never been purchased (that is, they aren't part of a line item in an invoice).
 
--- You approved this
-
+-- You approved this (in office hours, you told me to remind you that this is correct)
 
 
 SELECT tracks.TrackId, tracks.name, tracks.composer 
