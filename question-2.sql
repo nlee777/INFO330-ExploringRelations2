@@ -2,5 +2,5 @@
 
 SELECT employees.FirstName, employees.LastName, invoices.*
 FROM employees
-INNER JOIN customers ON employees.EmployeeId = customers.SupportRepId
-INNER JOIN invoices ON customers.CustomerId = invoices.CustomerId;
+JOIN customers ON employees.EmployeeId = customers.SupportRepId
+JOIN invoices ON customers.CustomerId = invoices.CustomerId;
